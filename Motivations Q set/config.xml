@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <config version="1.1.1" htmlParse="false">
+
+     <!-- title of the study -->
+     <item id="studyTitle">Motivations and expectations in transitioning to Regenerative Agriculture </item>
+
+     <!-- text-align property(left|right) -->
+     <item id="textAlign">left</item>
+
+     <!-- shuffle cards (true|false) (4) -->
+     <item id="shuffleCards">true</item>
+
+     <!-- access code required (true|false) (5) -->
+     <item id="loginrequired">false</item>
+     <item id="clearCachePassword">cleareqmobilecache</item>
+     <!-- login with common password (leave blank if not required) -->
+     <item id="loginPassword"></item>
+    <item id="partNameRequired">true</item>
+      <!-- Use login script -->
+     <item id="useLogInScript">false</item>
+      <!-- URL to individual login script(leave blank if not required) -->
+     <item id="loginUrl"></item>
+     <!-- request mode (post|get) -->
+     <item id="loginUrlMethod"></item>
+
+     <item id="setConstantCardHeight">false</item>
+     <item id="constantCardHeight">150</item>
+     <item id="setConstantCardWidth">false</item>
+     <item id="constantCardWidth">200</item>
+     <!-- activate/deactivate optional steps (true|false) -->
+     <item id="showStep3">true</item>
+     <item id="showStep4">true</item>
+     <item id="showStep5">true</item>
+
+     <!-- HtmlQ only: disable the in-window back button -->
+     <item id="disableBackButton">true</item>
+
+     <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
+     <!-- add label: <label>[STRING]</label> -->
+     <!-- add note: <note>[STRING]</note> -->
+     <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
+     <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
+     <item id="form">
+        <label>Age</label>
+        <note>Please enter your year of birth (YYYY, e.g. 1970)</note>
+        <input type="text" required="true" maxlength="4" ></input>
+
+        <label>Gender</label>
+        <note>Please select your gender</note>
+        <input type="radio" required="true">Male; Female; Prefer not to say</input>
+
+        <label>Location</label>
+        <note>Please enter your location (County, e.g. Kilkenny)</note>
+        <input type="text" required="true" maxlength="100000" ></input>
+
+        <label>How long have you been living within this area (county)?</label>
+        <note>Please select the length of time </note>
+        <input type="radio" required="true">less than 1 year; 1-5 years; 6-10 years; 11-15 years; 16-20 years; 20+ years </input>
+
+        <label>Education</label>
+        <note>Please select your highest level of education </note>
+        <input type="radio" required="false">Primary; Secondary; Post-secondary (diploma); Post-secondary (Bachelors degree); Post-secondary (Master's level or above)</input>
+
+        <label>What is your employment status?</label>
+        <input type="select" required="true">Full-time farmer; Part-time farmer </input>
+
+        <label>Farm size </label>
+        <note>Farm size (e.g. 30 ha)</note>
+        <input type="text" required="true" maxlength="100" ></input>
+
+        <label>Length of time farming  </label>
+        <note>How long have you been farming on this land/site? (e.g. 10 years)</note>
+        <input type="text" required="true" maxlength="100" ></input>
+
+        <label>Do you own or rent the land?</label>
+        <input type="select" required="true">Own; rent </input>
+
+        <label>Heritage </label>
+        <note>How many generations of your family (if any) have been farmers? </note>
+        <input type="text" required="true" maxlength="300" ></input>
+
+        <label>Children</label>
+        <note>Do you have children?</note>
+        <input type="radio" required="false">Yes; No</input>
+
+        <label>Children (continued) </label>
+        <note>Do you wish to see them take over the land?</note>
+        <input type="text" required="false" maxlength="100000" ></input>
+
+        <label>Have you experienced or been affected by climate change first hand (such as crop failure due to drought, a natural disaster etc)? Please feel free to expand and give details. </label>
+        <input type="textarea" required="false"></input>
+
+        <label>Select your Enterprise(s)</label>
+        <input type="checkbox" required="true">Sheep; Beef; Dairy; Arable; Alternative enterprises (e.g. forestry)</input>
+
+        <label>What are your current practices? </label>
+        <input type="checkbox" required="true">No till/ minimum/ conservation till/ strip till;Direct Drill;Cover crops;Compost/mulching/manures/biochar;diverse rotations;mob/holistic grazing;swards/pasture cropping;reduced/no chemical input;minimal fertilisers/nutrient management;perennials;intercropping;agroforestry/silvopasture/tree crops; biodynamic farming; permaculture; other</input>
+
+        <label>Practices (feel free to expand if something was missed)</label>
+        <input type="textarea" required="false"></input>
+
+        <label>Are you a member of any forums/unions/groups? (Please specify if you wish)</label>
+        <input type="textarea" required="false"></input>
+
+        <label>Are you certified? (Please specify if you wish e.g. PFLA)</label>
+        <input type="textarea" required="false"></input>
+
+        <label>What are the main principles guiding your current management practices? Select any that apply</label>
+        <input type="checkbox" required="true">Minimise ground disturbance; Maintain soil cover; Build soil C; Sequester carbon from atmosphere/mitigate Climate change; Rely more on biological nutrient cycles; Foster plant diversity; Integrate livestock; Avoid pesticides; Encouraging water percolation; Producing healthy food; Animal welfare; Profit; Creating a resilient food system; Educating/advocating for change</input>
+
+        <label>Principles (continued, if you wish to expand) </label>
+        <input type="textarea" required="false"></input>
+
+        <label>Where/how did you hear about the benefits of regenerative agriculture? </label>
+        <input type="textarea" required="true"></input>
+
+        <label>When did you first begin the transition? (e.g. since 2005 experimenting in one field)</label>
+        <input type="textarea" required="true"></input>
+
+        <label>Wellbeing</label>
+        <note>Is sustaining or enhancing your wellbeing a goal of/ influence in practicing regenerative agriculture?</note>
+        <input type="text" required="true" maxlength="200" ></input>
+
+        <label>Going forward </label>
+        <note>What further changes are you expecting to make as part of your ongoing transition? </note>
+        <input type="text" required="false" maxlength="300" ></input>
+
+        <label>Barriers</label>
+        <note>What do you expect the barriers to be to successfully implementing these changes? (e.g. lack of demand) </note>
+        <input type="text" required="false" maxlength="300" ></input>
+
+        <label>In your opinion, what are the general barriers to farmers making this transition? What needs are not being met? </label>
+        <input type="textarea" required="true"></input>
+
+        <label>What's the role of policy? How can it better support farmer's wellbeing and transitions? </label>
+        <input type="textarea" required="true"></input>
+
+     </item>
+
+     <!-- URL for data transmission via POST/GET (leave blank if not required) -->
+     <item id="submitUrl">exe.php?do=save</item>
+  
+     <!-- request mode (post|get|firebase) -->
+     <item id="submitUrlMethod">firebase</item>
+  
+     <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
+     <item id="submitMail">yourdomain.com</item>
+   </config>
